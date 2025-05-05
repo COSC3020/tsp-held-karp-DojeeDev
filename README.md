@@ -51,9 +51,9 @@ reasoning, to this markdown file.
 
 Say n is the number of cities. We iterate over all cities when we try all of them as the starting point.
 
-Then for each city there are $2^n$ subsets. And for every one of them there are n choices for picking the starting city. So total that's $n \cdot n \cdot 2^n \in \Theta(n^2 2^n)$
+Then for each city there are $2^n$ subsets. And for every one of them there are n choices for picking the starting city. So total that's $n \cdot n \cdot 2^n \in \Theta(n^2 \cdot 2^n)$
 
-Then the space complexity will also be $\Theta(n^2 2^n)$ since we store the result of every subset and starting city.
+Then the space complexity will also be $\Theta(n \cdot 2^n)$ since we store the result of every subset and starting city.
 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
